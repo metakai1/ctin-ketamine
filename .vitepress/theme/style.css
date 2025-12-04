@@ -290,20 +290,36 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+/* Primary "Start Reading" button - extra large and centered */
+.VPHome .VPHero .actions .action:first-child {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .VPHome .VPHero .actions .action:first-child .VPButton {
-  font-size: 1.5em;
-  padding: 1.2em 3em;
-  font-weight: 600;
-  min-width: 350px;
-  border-radius: 12px;
+  font-size: 2em;
+  padding: 1.5em 4em;
+  font-weight: 700;
+  min-width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
+.VPHome .VPHero .actions .action:first-child .VPButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+/* Secondary buttons on next row */
 .VPHome .VPHero .actions .action:not(:first-child) {
-  margin-top: 0.5rem;
+  margin-top: 0;
 }
 
 /**
@@ -325,5 +341,12 @@
 
   .vp-doc h2 {
     font-size: 1.5em;
+  }
+
+  /* Smaller Start Reading button on mobile */
+  .VPHome .VPHero .actions .action:first-child .VPButton {
+    font-size: 1.3em;
+    padding: 1.2em 2.5em;
+    min-width: 280px;
   }
 }
