@@ -33,6 +33,9 @@
 
   /* Spacing and layout */
   --vp-layout-max-width: 900px;
+
+  /* Narrow sidebar width */
+  --vp-sidebar-width: 240px;
 }
 
 /* Dark mode academic colors */
@@ -214,26 +217,7 @@
 
 .VPSidebar {
   font-family: 'Inter', sans-serif;
-  font-size: 0.95em;
-  max-width: 240px !important;
-}
-
-/* Reduce sidebar width to give more space to content */
-@media (min-width: 960px) {
-  .VPSidebar {
-    width: 240px !important;
-  }
-
-  .VPDoc.has-sidebar .container {
-    padding-left: 260px !important;
-  }
-}
-
-@media (min-width: 1440px) {
-  .VPSidebar {
-    padding-left: max(32px, calc((100vw - 1440px) / 2)) !important;
-    width: 240px !important;
-  }
+  font-size: 0.9em;
 }
 
 /**
