@@ -13,13 +13,13 @@ hero:
       link: /references
 
 features:
-  - icon: 🧠
+  - icon: 🧬
     title: Neuroscience
     details: Understanding ketamine's rapid modulation of glutamatergic circuits, induction of neuroplasticity, and capacity to reopen emotional flexibility
     link: /sections/2-neuroscience
     linkText: Read Chapter 2
 
-  - icon: 🏥
+  - icon: 🇨🇦
     title: Trauma in Canada
     details: Examining how trauma disproportionately affects Indigenous communities, survivors of violence, veterans, first responders, and marginalized populations
     link: /sections/3-trauma-canada
@@ -31,15 +31,15 @@ features:
     link: /sections/4-ethics
     linkText: Read Chapter 4
 
-  - icon: 📖
+  - icon: 🔓
     title: Open Access
     details: This work is released under CC0 1.0 Universal (Public Domain). It belongs to everyone seeking knowledge about trauma and healing.
 
-  - icon: 🔬
+  - icon: 📊
     title: Evidence-Based
     details: Every claim is grounded in peer-reviewed research from neuroscience, clinical psychiatry, and public health literature.
 
-  - icon: 🤝
+  - icon: 👥
     title: For Everyone
     details: Written for clinicians, policymakers, researchers, and anyone seeking to understand trauma's biology and pathways to recovery.
 ---

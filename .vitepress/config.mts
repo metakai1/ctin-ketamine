@@ -25,7 +25,7 @@ export default defineConfig({
 
   themeConfig: {
     // Site branding
-    siteTitle: 'CTIN Ketamine Book',
+    siteTitle: 'Ketamine, Trauma, and Mental Health in Canada',
 
     // Navigation
     nav: [
