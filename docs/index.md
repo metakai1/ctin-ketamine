@@ -6,27 +6,33 @@ hero:
   tagline: An open-science manuscript examining the neuroscience, ethics, and policy implications of ketamine for trauma care
   actions:
     - theme: brand
-      text: Start Reading
+      text: "📖  Start Reading"
       link: /sections/preface
     - theme: alt
       text: View References
       link: /references
 
 features:
+  - icon: 📘
+    title: Chapter 1 — Introduction
+    details: Ketamine's emergence and the Canadian mental health landscape. Understanding the limits of existing paradigms and ketamine as an inflection point.
+    link: /sections/1-introduction
+    linkText: Start with Chapter 1
+
   - icon: 🧬
-    title: Neuroscience
+    title: Chapter 2 — Neuroscience
     details: Understanding ketamine's rapid modulation of glutamatergic circuits, induction of neuroplasticity, and capacity to reopen emotional flexibility
     link: /sections/2-neuroscience
     linkText: Read Chapter 2
 
   - icon: 🇨🇦
-    title: Trauma in Canada
+    title: Chapter 3 — Trauma in Canada
     details: Examining how trauma disproportionately affects Indigenous communities, survivors of violence, veterans, first responders, and marginalized populations
     link: /sections/3-trauma-canada
     linkText: Read Chapter 3
 
   - icon: ⚖️
-    title: Ethics & Policy
+    title: Chapter 4 — Ethics & Policy
     details: Exploring questions of autonomy, agency, dissociation, and what a more equitable, evidence-informed mental health system could become
     link: /sections/4-ethics
     linkText: Read Chapter 4
@@ -34,10 +40,6 @@ features:
   - icon: 🔓
     title: Open Access
     details: This work is released under CC0 1.0 Universal (Public Domain). It belongs to everyone seeking knowledge about trauma and healing.
-
-  - icon: 📊
-    title: Evidence-Based
-    details: Every claim is grounded in peer-reviewed research from neuroscience, clinical psychiatry, and public health literature.
 
   - icon: 👥
     title: For Everyone

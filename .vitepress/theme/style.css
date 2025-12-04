@@ -285,6 +285,27 @@
   line-height: 1.6;
 }
 
+/* Make Start Reading button much larger and more prominent */
+.VPHome .VPHero .actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.VPHome .VPHero .actions .action:first-child .VPButton {
+  font-size: 1.5em;
+  padding: 1.2em 3em;
+  font-weight: 600;
+  min-width: 350px;
+  border-radius: 12px;
+}
+
+.VPHome .VPHero .actions .action:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
 /**
  * Responsive adjustments
  */

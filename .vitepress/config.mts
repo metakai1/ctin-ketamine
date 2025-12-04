@@ -25,7 +25,8 @@ export default defineConfig({
 
   themeConfig: {
     // Site branding
-    siteTitle: 'Ketamine, Trauma, and Mental Health in Canada',
+    siteTitle: 'CTIN',
+    logo: '/logo.svg',
 
     // Navigation
     nav: [
