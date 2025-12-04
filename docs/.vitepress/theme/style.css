@@ -215,6 +215,25 @@
 .VPSidebar {
   font-family: 'Inter', sans-serif;
   font-size: 0.95em;
+  max-width: 240px !important;
+}
+
+/* Reduce sidebar width to give more space to content */
+@media (min-width: 960px) {
+  .VPSidebar {
+    width: 240px !important;
+  }
+
+  .VPDoc.has-sidebar .container {
+    padding-left: 260px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .VPSidebar {
+    padding-left: max(32px, calc((100vw - 1440px) / 2)) !important;
+    width: 240px !important;
+  }
 }
 
 /**
@@ -303,12 +322,12 @@
 }
 
 .VPHome .VPHero .actions .action:first-child .VPButton {
-  font-size: 2em;
-  padding: 1.5em 4em;
+  font-size: 1.4em;
+  padding: 1.05em 2.8em;
   font-weight: 700;
-  min-width: 450px;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  min-width: 315px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
