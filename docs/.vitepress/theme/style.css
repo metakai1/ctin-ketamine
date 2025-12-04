@@ -34,7 +34,7 @@
   /* Spacing and layout */
   --vp-layout-max-width: 900px;
 
-  /* Narrow sidebar width */
+  /* Narrow sidebar width - VitePress default is 272px */
   --vp-sidebar-width: 240px;
 }
 
