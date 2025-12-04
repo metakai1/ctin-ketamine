@@ -1,3 +1,14 @@
+---
+title: 7. The Way Forward — A Vision for Ethically Grounded, Neuroscience-Informed Mental Health Care
+description: Aligning systems with biology, protecting autonomy, and building equitable access
+prev:
+  text: '6. Policy Considerations'
+  link: '/sections/6-policy'
+next:
+  text: 'Conclusion'
+  link: '/sections/conclusion'
+---
+
 # 7. The Way Forward: A Vision for Ethically Grounded, Neuroscience-Informed Mental Health Care
 
 Ketamine is not simply a new therapeutic tool; it is a catalyst for reimagining what mental‑health care in Canada can become. Its rapid modulation of neural circuits, induction of neuroplasticity, and capacity to reopen emotional and cognitive flexibility challenge the assumptions of existing systems and illuminate pathways toward a more humane, science‑informed future. The evidence described in earlier chapters—from rapid antidepressant effects (Berman et al., 2000; Zarate et al., 2006) to synaptic repair and neuroplasticity (Li et al., 2010; Duman et al., 2019)—provides a foundation for systemic evolution. This section outlines a vision for translating these scientific and ethical insights into actionable reforms.

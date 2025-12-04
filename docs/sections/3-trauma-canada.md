@@ -1,3 +1,14 @@
+---
+title: 3. Trauma in Canada — A Systems-Level Problem
+description: Examining trauma as a population-level phenomenon shaped by structural forces
+prev:
+  text: '2. The Neuroscience of Ketamine'
+  link: '/sections/2-neuroscience'
+next:
+  text: '4. Ethical Dimensions'
+  link: '/sections/4-ethics'
+---
+
 # 3. Trauma in Canada: A Systems-Level Problem
 
 Trauma is not distributed evenly across populations, nor does it exist in isolation from social, historical, or institutional contexts. In Canada, trauma presents as a public‑health condition shaped by structural forces, disproportionately affecting specific communities and producing long‑term psychiatric, economic, and intergenerational consequences. Understanding ketamine's therapeutic relevance requires situating its neurobiological effects within this broader societal burden.

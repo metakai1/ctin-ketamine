@@ -1,3 +1,14 @@
+---
+title: 5. Social Impact and Access — Inequities in Canada's Mental Health Landscape
+description: Geographic, economic, cultural, and regulatory barriers to trauma care
+prev:
+  text: '4. Ethical Dimensions'
+  link: '/sections/4-ethics'
+next:
+  text: '6. Policy Considerations'
+  link: '/sections/6-policy'
+---
+
 # 5. Social Impact and Access: Inequities in Canada's Mental Health Landscape
 
 Ketamine's therapeutic potential exists within a broader societal context, where access to care is shaped by geography, socioeconomic status, institutional policies, and cultural history. While neuroscience highlights ketamine's rapid modulation of trauma‑related pathways, social systems determine who receives such interventions, under what conditions, and with what level of safety and continuity. This section outlines the inequities embedded in Canada's mental‑health care landscape and examines how ketamine's properties intersect with these structural realities.

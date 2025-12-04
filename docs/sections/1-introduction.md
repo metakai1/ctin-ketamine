@@ -1,3 +1,14 @@
+---
+title: 1. Ketamine, Trauma, and the Canadian Mental Health Landscape
+description: Introduction to ketamine's intersection with psychiatry, trauma care, and Canadian policy
+prev:
+  text: 'Author''s Note'
+  link: '/sections/authors-note'
+next:
+  text: '2. The Neuroscience of Ketamine'
+  link: '/sections/2-neuroscience'
+---
+
 # 1. Ketamine, Trauma, and the Canadian Mental Health Landscape
 
 Ketamine began its life in operating rooms and emergency departments, but its trajectory has increasingly intersected with psychiatry, trauma care, and public policy. Initially developed in the 1960s as a safer alternative to phencyclidine (PCP) and widely adopted as an anesthetic, ketamine was valued for its hemodynamic stability and dissociative properties in medical and veterinary practice (Domino, 2010; Kurdi et al., 2014). Over time, however, a different story emerged: one in which low‑dose ketamine produced rapid and profound antidepressant effects in individuals for whom standard treatments had failed (Berman et al., 2000; Zarate et al., 2006).

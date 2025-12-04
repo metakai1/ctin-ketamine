@@ -1,3 +1,14 @@
+---
+title: 6. Policy Considerations for a Modern Mental Health System
+description: Regulatory frameworks, neuroscience integration, and equity objectives
+prev:
+  text: '5. Social Impact and Access'
+  link: '/sections/5-access'
+next:
+  text: '7. The Way Forward'
+  link: '/sections/7-way-forward'
+---
+
 # 6. Policy Considerations for a Modern Mental Health System
 
 The neuroscience, ethical analysis, and social context presented in earlier sections expose a widening gap between scientific possibility and institutional practice. Ketamine challenges the assumptions on which Canada's mental‑health policy has been built: that psychiatric change must be slow, that pharmacological interventions must follow monoaminergic pathways, and that trauma recovery is primarily a psychotherapeutic endeavor. Contemporary evidence shows that ketamine can rapidly enhance neuroplasticity, recalibrate trauma circuits, and reduce depressive symptoms in ways that legacy systems are not designed to support (Berman et al., 2000; Zarate et al., 2006; Li et al., 2010). This section outlines the policy implications of these findings and considers what a modern, neuroscience‑informed mental‑health framework could look like in Canada.

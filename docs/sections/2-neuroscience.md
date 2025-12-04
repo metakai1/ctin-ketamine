@@ -1,3 +1,14 @@
+---
+title: 2. The Neuroscience of Ketamine
+description: Understanding ketamine's glutamatergic modulation and neuroplastic effects
+prev:
+  text: '1. Introduction'
+  link: '/sections/1-introduction'
+next:
+  text: '3. Trauma in Canada'
+  link: '/sections/3-trauma-canada'
+---
+
 # 2. The Neuroscience of Ketamine
 
 Ketamine represents one of the most significant conceptual shifts in modern neuropsychiatry. Unlike traditional monoaminergic antidepressants, which operate through gradual modulation of serotonin or norepinephrine, ketamine engages the glutamatergic system and triggers rapid neuroplastic processes that have profound implications for trauma‑related disorders. This section synthesizes the current neuroscience literature to articulate how ketamine affects neural circuits, cognitive‑emotional processing, and the biological substrates of post‑traumatic stress.

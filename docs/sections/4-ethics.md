@@ -1,3 +1,14 @@
+---
+title: 4. Ethical Dimensions of Ketamine's Effects
+description: Exploring dissociation, identity, agency, and moral responsibility
+prev:
+  text: '3. Trauma in Canada'
+  link: '/sections/3-trauma-canada'
+next:
+  text: '5. Social Impact and Access'
+  link: '/sections/5-access'
+---
+
 # 4. Ethical Dimensions of Ketamine's Effects
 
 The ethical landscape surrounding ketamine is shaped not only by its pharmacology but by its unique impact on consciousness, memory, and self‑perception. Unlike traditional psychotropic medications, ketamine induces transient dissociative states and enhances neuroplasticity, raising questions about autonomy, agency, vulnerability, and the responsibilities of a society that deploys such a tool. This section examines ketamine's therapeutic potential through an ethical lens grounded in contemporary clinical research and neuroscience.

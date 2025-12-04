@@ -1,3 +1,14 @@
+---
+title: Conclusion — Toward a Humane, Evidence-Driven Future
+description: Final reflections on ketamine, trauma, and the possibility of transformation
+prev:
+  text: '7. The Way Forward'
+  link: '/sections/7-way-forward'
+next:
+  text: 'References'
+  link: '/references'
+---
+
 # Conclusion — Toward a Humane, Evidence-Driven Future
 
 Ketamine occupies a singular position in the evolution of mental‑health care. Its rapid modulation of glutamatergic signaling, induction of neuroplasticity, and capacity to reopen emotional and cognitive flexibility challenge long‑standing assumptions within psychiatry and public policy. Research demonstrating fast‑acting antidepressant effects (Berman et al., 2000; Zarate et al., 2006) and meaningful reductions in PTSD symptoms (Feder et al., 2014) underscores that profound therapeutic change is biologically possible even in conditions previously regarded as refractory. Findings on synaptogenesis and mTOR activation (Li et al., 2010; Duman et al., 2019) reveal that healing is not merely psychological—it is structural.
