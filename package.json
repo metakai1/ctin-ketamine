@@ -1,0 +1,30 @@
+{
+  "name": "ctin-ketamine-book",
+  "version": "1.0.0",
+  "description": "Ketamine, Trauma, and the Future of Mental Health in Canada - An open-science manuscript by CTIN",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "ketamine",
+    "trauma",
+    "mental-health",
+    "neuroscience",
+    "ptsd",
+    "canada"
+  ],
+  "author": "Centre for Trauma-Informed Neuroscience (CTIN)",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "vitepress": "^1.0.0",
+    "vue": "^3.4.0",
+    "@floating-ui/vue": "^1.0.0",
+    "html2pdf.js": "^0.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}

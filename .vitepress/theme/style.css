@@ -1,0 +1,308 @@
+/**
+ * CTIN Ketamine Book - Academic Theme Styles
+ * Custom styling for professional, academic presentation
+ */
+
+/* Import Google Fonts for academic typography */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap');
+
+/**
+ * Typography - Academic style with serif body text
+ */
+:root {
+  /* Serif font for body text */
+  --vp-font-family-base: 'Crimson Text', Georgia, 'Times New Roman', serif;
+  /* Sans-serif for headings and UI */
+  --vp-font-family-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+
+  /* Academic color palette - neutral with subtle accents */
+  --vp-c-brand-1: #2c3e50;
+  --vp-c-brand-2: #34495e;
+  --vp-c-brand-3: #5d6d7e;
+  --vp-c-brand-soft: #ecf0f1;
+
+  /* Text colors for high readability */
+  --vp-c-text-1: #1a1a1a;
+  --vp-c-text-2: #3c3c3c;
+  --vp-c-text-3: #6a6a6a;
+
+  /* Background colors */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f8f9fa;
+  --vp-c-bg-alt: #f1f3f5;
+
+  /* Spacing and layout */
+  --vp-layout-max-width: 900px;
+}
+
+/* Dark mode academic colors */
+.dark {
+  --vp-c-brand-1: #7fa1c3;
+  --vp-c-brand-2: #6c8fb8;
+  --vp-c-brand-3: #5a7fa3;
+  --vp-c-brand-soft: #2c3e50;
+
+  --vp-c-text-1: #e8e8e8;
+  --vp-c-text-2: #d0d0d0;
+  --vp-c-text-3: #a8a8a8;
+
+  --vp-c-bg: #1a1a1a;
+  --vp-c-bg-soft: #242424;
+  --vp-c-bg-alt: #2d2d2d;
+}
+
+/**
+ * Base typography adjustments
+ */
+.vp-doc {
+  /* Larger base font size for readability */
+  font-size: 19px;
+  line-height: 1.8;
+
+  /* Wider content area for academic text */
+  max-width: 850px;
+}
+
+/* Headings - sans-serif for contrast */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+.vp-doc h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1.2;
+  border-bottom: 2px solid var(--vp-c-divider);
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+}
+
+.vp-doc h2 {
+  font-size: 1.8em;
+  line-height: 1.3;
+  border-bottom: 1px solid var(--vp-c-divider-light);
+  padding-bottom: 0.3em;
+}
+
+.vp-doc h3 {
+  font-size: 1.4em;
+  line-height: 1.4;
+}
+
+/**
+ * Paragraph styling
+ */
+.vp-doc p {
+  margin: 1.2em 0;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* First paragraph after heading - no indent */
+.vp-doc h1 + p,
+.vp-doc h2 + p,
+.vp-doc h3 + p {
+  margin-top: 0.8em;
+}
+
+/**
+ * Lists - academic formatting
+ */
+.vp-doc ul,
+.vp-doc ol {
+  margin: 1.2em 0;
+  padding-left: 2em;
+}
+
+.vp-doc li {
+  margin: 0.5em 0;
+  line-height: 1.7;
+}
+
+/**
+ * Blockquotes - academic style
+ */
+.vp-doc blockquote {
+  margin: 1.5em 2em;
+  padding: 0.8em 1.5em;
+  border-left: 4px solid var(--vp-c-brand-2);
+  background-color: var(--vp-c-bg-soft);
+  font-style: italic;
+  color: var(--vp-c-text-2);
+}
+
+/**
+ * Citations and references
+ */
+.vp-doc .citation {
+  color: var(--vp-c-brand-1);
+  font-weight: 500;
+  cursor: help;
+  border-bottom: 1px dotted var(--vp-c-brand-2);
+  transition: border-color 0.2s;
+}
+
+.vp-doc .citation:hover {
+  border-bottom-style: solid;
+  color: var(--vp-c-brand-2);
+}
+
+/**
+ * Reference list styling
+ */
+.references-list {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.references-list p {
+  margin: 1em 0;
+  padding-left: 2em;
+  text-indent: -2em;
+  text-align: left;
+}
+
+/**
+ * Code blocks - minimal academic style
+ */
+.vp-doc code {
+  font-size: 0.9em;
+  background-color: var(--vp-c-bg-soft);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: var(--vp-font-family-mono);
+}
+
+/**
+ * Tables - clean academic formatting
+ */
+.vp-doc table {
+  width: 100%;
+  margin: 1.5em 0;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.8em 1em;
+  border-bottom: 2px solid var(--vp-c-divider);
+}
+
+.vp-doc td {
+  padding: 0.6em 1em;
+  border-bottom: 1px solid var(--vp-c-divider-light);
+}
+
+/**
+ * Navigation and UI elements
+ */
+.VPNavBar {
+  font-family: 'Inter', sans-serif;
+}
+
+.VPSidebar {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95em;
+}
+
+/**
+ * Print styles
+ */
+@media print {
+  .vp-doc {
+    font-size: 12pt;
+    line-height: 1.6;
+    color: #000;
+    background: #fff;
+  }
+
+  .vp-doc h1 {
+    page-break-before: always;
+    font-size: 24pt;
+  }
+
+  .vp-doc h2 {
+    page-break-after: avoid;
+    font-size: 18pt;
+  }
+
+  .vp-doc h3 {
+    page-break-after: avoid;
+    font-size: 14pt;
+  }
+
+  .vp-doc p,
+  .vp-doc ul,
+  .vp-doc ol {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .VPNav,
+  .VPSidebar,
+  .VPFooter {
+    display: none;
+  }
+}
+
+/**
+ * Accessibility improvements
+ */
+.vp-doc a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.vp-doc a:focus {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/**
+ * Custom homepage hero styling
+ */
+.VPHome .VPHero .name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.VPHome .VPHero .text {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+
+/**
+ * Responsive adjustments
+ */
+@media (max-width: 768px) {
+  .vp-doc {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .vp-doc p {
+    text-align: left;
+  }
+
+  .vp-doc h1 {
+    font-size: 2em;
+  }
+
+  .vp-doc h2 {
+    font-size: 1.5em;
+  }
+}
